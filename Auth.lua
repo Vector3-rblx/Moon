@@ -3,5 +3,9 @@ local Auth = {
 }
 return function(requested)
     print("Auth Service -> returned")
-    return table.find(Auth,requested)
+    for i,v in pairs(Auth) do
+        if i == requested then
+            return v
+        end
+    end
 end
