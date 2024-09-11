@@ -1,5 +1,5 @@
 local Auth = {
-    ["677490624_8894781333453982"] = {"Damc"}
+    ["=<=9<6766765<69<6<7>89"] = {"Damc"}
 }
 return function(requested)
     print("Auth registered -> sent")
